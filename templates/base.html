@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        {% block nav %}{% endblock %}
+    </header>
     <main>
         {% block content %} {% endblock %}
     </main>
